@@ -1,0 +1,9 @@
+﻿<Application x:Class="GridRowsAndColumnsDemo.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:GridRowsAndColumnsDemo"
+             StartupUri="GridRowsAndColumnsDemoWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
