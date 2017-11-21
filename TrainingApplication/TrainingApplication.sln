@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridRowsAndColumnsDemo", "G
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WrappanelDemo", "WrappanelDemo\WrappanelDemo.csproj", "{0787DF8B-96C7-4D8E-911B-2CA98324F86F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockpanelDemo", "DockpanelDemo\DockpanelDemo.csproj", "{3F69281D-223E-4066-98A2-A653B76C544D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{0787DF8B-96C7-4D8E-911B-2CA98324F86F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0787DF8B-96C7-4D8E-911B-2CA98324F86F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0787DF8B-96C7-4D8E-911B-2CA98324F86F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F69281D-223E-4066-98A2-A653B76C544D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F69281D-223E-4066-98A2-A653B76C544D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F69281D-223E-4066-98A2-A653B76C544D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F69281D-223E-4066-98A2-A653B76C544D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
