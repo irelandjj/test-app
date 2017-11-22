@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockpanelDemo", "DockpanelD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanvasDemo", "CanvasDemo\CanvasDemo.csproj", "{10BBECE3-8BDA-4669-A91E-F38F8E820E96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFormDemo", "SimpleFormDemo\SimpleFormDemo.csproj", "{552CDF6F-8A05-4E5A-88D0-3F589DFA9DEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{10BBECE3-8BDA-4669-A91E-F38F8E820E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10BBECE3-8BDA-4669-A91E-F38F8E820E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10BBECE3-8BDA-4669-A91E-F38F8E820E96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{552CDF6F-8A05-4E5A-88D0-3F589DFA9DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{552CDF6F-8A05-4E5A-88D0-3F589DFA9DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{552CDF6F-8A05-4E5A-88D0-3F589DFA9DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{552CDF6F-8A05-4E5A-88D0-3F589DFA9DEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
