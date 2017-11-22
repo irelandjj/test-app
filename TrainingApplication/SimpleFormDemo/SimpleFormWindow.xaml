@@ -5,10 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SimpleFormDemo"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="400" Width="525">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
@@ -29,7 +28,8 @@
                  Height="20" 
                  HorizontalAlignment="Left" 
                  VerticalAlignment="Center" 
-                 Margin="5"/>
+                 Margin="5"
+                 Name="FullName"/>
         <TextBlock Grid.Row="1"
                    Text="Sex" 
                    HorizontalAlignment="Right" 
@@ -38,9 +38,11 @@
         <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
             <RadioButton Content="Male"
                          IsChecked="True"
-                         Margin="5"/>                 
+                         Margin="5"
+                         Name="Male"/>                 
             <RadioButton Content="Female"
-                         Margin="5"/>
+                         Margin="5"
+                         Name="Female"/>
         </StackPanel>
         <TextBlock Grid.Row="2"
                    Text="Do you own" 
@@ -49,11 +51,14 @@
                    Margin="5"/>
         <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal">
             <CheckBox Content="Desktop"
-                      Margin="5"/>
+                      Margin="5"
+                      Name="Desktop"/>
             <CheckBox Content="Laptop"
-                      Margin="5"/>
+                      Margin="5"
+                      Name="Laptop"/>
             <CheckBox Content="Table"
-                      Margin="5"/>
+                      Margin="5"
+                      Name="Table"/>
         </StackPanel>
         <TextBlock Grid.Row="3"
                    Text="Your job" 
@@ -64,7 +69,9 @@
                   Grid.Column="1"
                   HorizontalAlignment="Left"
                   VerticalAlignment="Center"
-                  Margin="5">
+                  Margin="5"
+                  Name="Job"
+                  SelectionChanged="Job_OnSelectionChanged">
             <ComboBoxItem Content="Progammer"/>
             <ComboBoxItem Content="Designer"/>
             <ComboBoxItem Content="PO"/>
@@ -79,6 +86,14 @@
         <Calendar Grid.Row="4" 
                   Grid.Column="1"
                   Margin="5"
-                  HorizontalAlignment="Left"/>
+                  HorizontalAlignment="Left"
+                  Name="Date"/>
+        <Button Name="SaveButton" 
+                Grid.Row="5" 
+                Grid.ColumnSpan="2"
+                Content="Save"
+                Margin="5"
+                Width="100"
+                Click="SaveButton_Click"/>
     </Grid>
 </Window>

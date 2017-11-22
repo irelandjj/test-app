@@ -24,5 +24,24 @@ namespace SimpleFormDemo
         {
             InitializeComponent();
         }
+
+        private void SaveButton_Click(object sender, RoutedEventArgs e)
+        {
+            StringBuilder clientInfo = new StringBuilder();
+            clientInfo.Append("Full name: " + FullName.Text);
+            clientInfo.Append(" Sex: " + ((bool) Male.IsChecked ? "Male " : "Female "));
+            clientInfo.Append("Computer: " + ((bool) Desktop.IsChecked ? "Desktop " : ""));
+            clientInfo.Append(((bool) Laptop.IsChecked ? "Laptop " : ""));
+            clientInfo.Append(((bool)Table.IsChecked ? "Table " : ""));
+            clientInfo.Append("Job: " + Job.SelectionBoxItem.ToString());
+            clientInfo.Append(" Delivery date: " + Date.SelectedDate);
+
+            MessageBox.Show(clientInfo.ToString());
+        }
+
+        private void Job_OnSelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            MessageBox.Show(e.AddedItems[0].ToString());
+        }
     }
 }
