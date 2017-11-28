@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFormDemo", "SimpleFor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneWayDataBinding", "OneWayDataBinding\OneWayDataBinding.csproj", "{2F97864F-C341-47A0-BF60-7DE1220EB9EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoWayDataBinding", "TwoWayDataBinding\TwoWayDataBinding.csproj", "{C1A1D7D7-FA45-48DC-8435-59F3861C7CEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{2F97864F-C341-47A0-BF60-7DE1220EB9EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F97864F-C341-47A0-BF60-7DE1220EB9EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F97864F-C341-47A0-BF60-7DE1220EB9EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1A1D7D7-FA45-48DC-8435-59F3861C7CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A1D7D7-FA45-48DC-8435-59F3861C7CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1A1D7D7-FA45-48DC-8435-59F3861C7CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A1D7D7-FA45-48DC-8435-59F3861C7CEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
